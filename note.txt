@@ -1,0 +1,13 @@
+/**
+ * Create a news website with 3 contents
+ * 1. Home, shows lists of news
+ * 2. News, shows news title, image and the news itself
+ * 3. About, shows information about the news publisher
+ *
+ * Plus points
+ * +1 using bootstrap
+ * +1 clean and tidy website
+ * +2 uses faker to create news paragraphs (https://www.npmjs.com/package/faker)
+ * +1 handle not found error
+ * +2 shows how many times user visit the website in home page
+ */
