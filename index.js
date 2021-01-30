@@ -1,4 +1,5 @@
 const express = require('express')
+var faker = require('faker')
 const app = express()
 const port = 3000
 
