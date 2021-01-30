@@ -4,7 +4,7 @@ const app = express.Router()
 
 var randomNewsTitle = [] //array yang berisi judul-judul berita 
 var randomNews = [] //array yang berisi paragraf-paragraf berita
-var randomImages = [] //berisi link gambar-gambar kucing, biar unik
+var randomImages = [] //berisi link gambar-gambar kucing, biar unik hehe
 
 for (var i = 0; i < 20; i++) {
     randomNewsTitle[i] = faker.lorem.sentence()
