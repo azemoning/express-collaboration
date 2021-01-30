@@ -9,7 +9,7 @@ for (var i = 0; i < 5; i++) {
         index: i,
         title: faker.random.words(),
         news: faker.lorem.paragraphs(),
-        image: faker.image.people()
+        image: faker.random.image()
     })
 }
 
