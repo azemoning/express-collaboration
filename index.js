@@ -9,10 +9,6 @@ app.set('view engine', 'ejs')
 const rootRoute = require('./route/rootRoute')
 app.use(rootRoute)
 
-app.get('/', (req, res) => {
-    res.send('Hello World!')
-})
-
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 })
