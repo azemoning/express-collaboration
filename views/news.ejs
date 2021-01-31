@@ -7,26 +7,24 @@
     <title> Situs Hoax Terpercaya |
         <%= newsContent.title %>
     </title>
+    <link rel="stylesheet" href="/css/styleNews.css">
 </head>
 
 <body>
-
-
-    <div class="row">
+    <div class="row content">
+        <div class="col"></div>
         <div class="col-sm-6">
-            <h4>
+            <h4 class="mt-5 mb-5">
                 <%= newsContent.title %>
             </h4>
-            <img src="<%= newsContent.image %> " width="400" height="300" class="img-fluid">
+            <img src="<%= newsContent.image %> " width="400" height="300" class="img-fluid center mb-4">
 
             <p>
                 <%= newsContent.news %>
             </p>
-
         </div>
+        <div class="col"></div>
     </div>
-
-
 </body>
 
 </html>
