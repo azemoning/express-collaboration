@@ -1,20 +1,27 @@
 @charset 'UTF-8';
 @import 'bootstrap.css';
 
+.homeBox{
+    width: 120px;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+
 body {
     background-color: #060B13;
+    color: white;
 }
-.header{
-     background-image: url("../pict/header.jpeg");
-    color: aliceblue;
-    text-align: center;
 
+.header{
+    background-image: url("../pict/header.jpeg");
+    text-align: center;
 }
 
 .content{
     background-image: url("../pict/about.jpg");
     background-position: top center;
-    color: white;
     /* margin-left: 171px; */
     padding: 10px;
     width: 101%;
@@ -25,7 +32,7 @@ body {
 
 .center {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }

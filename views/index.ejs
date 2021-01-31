@@ -22,14 +22,11 @@
 </head>
 
 <body class="container-sm">
-
-
-
     <div class="row ml-5 mr-5">
         <% newsContent.forEach(newsContent=> { %>
             <div class="col-sm-4">
                 <h4 class="mt-4">
-                    <a href="news/<%= newsContent.index %> " target="_blank">
+                    <a href="news/<%= newsContent.index %> ">
                         <%= newsContent.title %>
                             <img src="<%= newsContent.image %> " class="img-fluid mt-4">
                     </a>

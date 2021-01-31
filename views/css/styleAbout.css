@@ -5,6 +5,14 @@ body, html{
     background-color: #060B13;
 }
 
+.homeBox{
+    width: 120px;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+
 .header{
     background-image: url("../pict/header.jpeg");
     color: white;
