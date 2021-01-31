@@ -1,0 +1,14 @@
+@import 'bootstrap.css';
+
+body {
+    background-color: #060B13;
+}
+
+.content {
+    color: white;
+    background-image: url(../pict/about.jpg);
+}
+
+.row {
+    padding: 100px;
+}
