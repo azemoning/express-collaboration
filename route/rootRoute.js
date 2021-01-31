@@ -4,7 +4,7 @@ const app = express.Router()
 
 let newsContent = []
 
-for (var i = 0; i < 5; i++) {
+for (var i = 0; i < 6; i++) {
     newsContent.push({
         index: i,
         title: faker.random.words(),

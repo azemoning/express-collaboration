@@ -4,16 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News</title>
+    <title> Situs Hoax Terpercaya |
+        <%= newsContent.title %>
+    </title>
 </head>
 
 <body>
-    <h4>
-        <%= newsContent.title %>
-    </h4>
-    <p>
-        <%= newsContent.news %>
-    </p>
+
+
+    <div class="row">
+        <div class="col-sm-6">
+            <h4>
+                <%= newsContent.title %>
+            </h4>
+            <img src="<%= newsContent.image %> " width="400" height="300" class="img-fluid">
+
+            <p>
+                <%= newsContent.news %>
+            </p>
+
+        </div>
+    </div>
+
+
 </body>
 
 </html>

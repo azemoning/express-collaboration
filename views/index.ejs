@@ -6,31 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Situs Hoax Terpercaya</title>
     <link rel="stylesheet" href="css/style.css">
-</head>
 
-<body class="container-sm">
-    <div class="header">
+    <div class="row-header">
         <h3 class="blog-title">Situs Hoax Terpercaya</h3>
+
         <div class="menu">
             <a href="">Home</a>
             <a href="about">About</a>
         </div>
+
         <div class="counter">
-            <p>
-                Anda sudah mengunjungi situs ini sebanyak <%= counter %> kali
-            </p>
+            <p>Anda sudah mengunjungi situs ini sebanyak <%= counter %> kali</p>
         </div>
     </div>
+</head>
+
+<body class="container-sm">
+
+
 
     <div class="row">
         <% newsContent.forEach(newsContent=> { %>
-            <div class="col-sm">
+            <div class="col-sm-4">
                 <h4>
                     <a href="news/<%= newsContent.index %> " target="_blank">
                         <%= newsContent.title %>
+                            <img src="<%= newsContent.image %> " class="img-fluid">
                     </a>
                 </h4>
-                <img src="<%= newsContent.image %> " class="img-fluid">
+
             </div>
             <% }) %>
 
