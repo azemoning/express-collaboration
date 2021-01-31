@@ -1,9 +1,31 @@
 @charset 'UTF-8';
 @import 'bootstrap.css';
 
+body {
+    background-color: #060B13;
+}
 .header{
      background-image: url("../pict/header.jpeg");
     color: aliceblue;
     text-align: center;
 
+}
+
+.content{
+    background-image: url("../pict/about.jpg");
+    background-position: top center;
+    color: white;
+    /* margin-left: 171px; */
+    padding: 10px;
+    width: 101%;
+    height: auto;
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }

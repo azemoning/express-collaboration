@@ -2,6 +2,7 @@
 
 body, html{
     height: 100%;
+    background-color: #060B13;
 }
 
 .header{
@@ -34,7 +35,7 @@ body, html{
 .content{
     background-image: url("../pict/about.jpg");
     background-position: top center;
-    margin-left: 130px;
+    margin-left: 171px;
     padding: 10px;
     width: 1000px;
     text-align: justify;

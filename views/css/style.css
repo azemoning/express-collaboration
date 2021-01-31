@@ -1,6 +1,21 @@
 @charset 'UTF-8';
 @import 'bootstrap.css';
 
+body {
+     background-color: #060B13;
+}
+
+a {
+     color: white;
+     text-decoration: none;
+}
+
+a:hover {
+     color: white;
+     font-style: italic;
+     text-decoration: underline;
+}
+
 .row-header{
      background-image: url("../pict/header.jpeg");
     color: aliceblue;
