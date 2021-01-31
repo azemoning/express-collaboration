@@ -1,0 +1,87 @@
+@import "bootstrap.css";
+
+body, html{
+    height: 100%;
+}
+
+.header{
+    background-image: url("pict/header.jpeg");
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.headerText{
+    position: absolute;
+    font-size: 45pt;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.headerText2{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content{
+    background-image: url("pict/about.jpg");
+    background-position: top center;
+    margin-left: 130px;
+    padding: 10px;
+    width: 1000px;
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    margin: 50px;
+}
+
+.subTitle{
+    color: white;
+}
+
+.paragraph{
+    color: white;
+}
+
+.paragraph::first-letter {
+    font-size: 30pt;
+}
+
+.teamCard{
+    margin:0 auto;
+    padding: 10px;
+}
+
+.cardText{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.commentAll{
+    color: white;
+}
+
+.commentBtn {
+    float: right;
+    margin: 10px;
+}
+
+.commentBox{
+    width: 950px;
+    background-color:#37474f;
+    border: 10px solid white;
+    padding: 10px;
+    margin: 20px;
+}
